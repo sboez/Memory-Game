@@ -1,4 +1,7 @@
 const cards = document.querySelectorAll('.memory-card');
+const matchSound = new Audio('sounds/match.wav');
+const flipSound = new Audio('sounds/flip.wav');
+
 let isFlipped = false;
 let locked = false;
 let firstCard, secondCard;
@@ -16,6 +19,7 @@ function flipCard() {
 		secondCard = this;
 		checkMatch();
 	}
+	flipSound.play();
 }
 
 function checkMatch() {
@@ -26,6 +30,7 @@ function disableCards() {
 	firstCard.removeEventListener('click', flipCard);
 	secondCard.removeEventListener('click', flipCard);
 	reset();
+	setTimeout(() => matchSound.play(), 200);
 }
 
 function unflipCards() {
