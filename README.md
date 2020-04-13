@@ -1,3 +1,12 @@
 # Memory-Game
 
-Memory card game made to improve my skills, done with [this tutorial](https://github.com/code-sketch/memory-game)
+![GitHub top language](https://img.shields.io/github/languages/top/sboez/Memory-Game)
+
+Memory card game made to improve my skills
+
+:video_game: [Demo](https://sboez.github.io/Memory-Game/)
+
+# Sources 
+
+- :nerd_face: [Tutorial](https://github.com/code-sketch/memory-game)
+- :rainbow: [Gradient background](https://uigradients.com/#ShroomHaze)

@@ -42,7 +42,7 @@ function reset() {
 	[firstCard, secondCard] = [null, null];
 }
 
-// IIFE: Immediately Invoked Function Expression
+/* IIFE: Immediately Invoked Function Expression */
 (function shuffle() {
 	cards.forEach(card => {
 		let randomPos = Math.floor(Math.random() * 12);
